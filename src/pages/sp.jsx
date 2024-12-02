@@ -1,8 +1,8 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
-import supply1 from "./src/assets/supply1.jpg";
-import supply2 from "./src/assets/supply2.jpg";
-import supply3 from "./src/assets/supply3.jpg";
+import supply1 from "../assets/supply1.jpg";
+import supply2 from "../assets/supply2.jpg";
+import supply3 from "../assets/supply3.jpg";
 
 function SupplyProcurements() {
   return (

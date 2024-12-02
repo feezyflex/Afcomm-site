@@ -1,5 +1,5 @@
 import React from 'react'
-import cable1 from "./src/assets/network cable1.jpg";
+import cable1 from "../assets/network cable1.jpg";
 
 function SupportMaintenances() {
   return (

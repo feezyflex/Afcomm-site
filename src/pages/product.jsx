@@ -15,13 +15,13 @@ import LENOVO from "../assets/LENOVO.png";
 import LOGITECH from "../assets/LOGITECH.png";
 import SEAGATE from "../assets/SEAGATE.png";
 import UBIQUITI from "../assets/UBIQUITI.png";
-import CCTV from "./src/assets/install1.jpg";
-import FIRE_ALARM from "./src/assets/FIRE ALARM SYSTEMS.png";
-import ACCESS_CONTROL from "./src/assets/ACCESS CONTROL SYSTEMS.png";
-import INTERCOM from "./src/assets/INTERCOMM SYSTEMS.png";
-import NDA from "./src/assets/NETWORK DEVICES AND ACCESSORIES.png";
-import ECS from "./src/assets/ELV CABLE SOLUTIONS.png";
-import CDA from "./src/assets/COMPUTER DEVICES AND ACCESSORIES.png";
+import CCTV from "../assets/install1.jpg";
+import FIRE_ALARM from "../assets/FIRE ALARM SYSTEMS.png";
+import ACCESS_CONTROL from "../assets/ACCESS CONTROL SYSTEMS.png";
+import INTERCOM from "../assets/INTERCOMM SYSTEMS.png";
+import NDA from "../assets/NETWORK DEVICES AND ACCESSORIES.png";
+import ECS from "../assets/ELV CABLE SOLUTIONS.png";
+import CDA from "../assets/COMPUTER DEVICES AND ACCESSORIES.png";
 
 const products = [
   {

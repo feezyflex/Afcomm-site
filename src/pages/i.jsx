@@ -1,7 +1,7 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel'
-import install1 from "./src/assets/install1.jpg";
-import install2 from "./src/assets/install1.jpg";
+import install1 from "../assets/install1.jpg";
+import install2 from "../assets/install1.jpg";
 
 function Installations() {
   return (

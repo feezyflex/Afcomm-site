@@ -1,8 +1,8 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
-import contact from "./src/assets/CONTACT.png";
-import handset from "./src/assets/HANDSET CORD.png";
-import headset from "./src/assets/HEADSET.png";
+import contact from "../assets/CONTACT.png";
+import handset from "../assets/HANDSET CORD.png";
+import headset from "../assets/HEADSET.png";
 
 function Contact() {
   return (

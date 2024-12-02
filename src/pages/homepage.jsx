@@ -5,11 +5,11 @@ import OANDO from "../assets/OANDO.png";
 import OES from "../assets/OES.png";
 import NNPC from "../assets/NNPC.png";
 import NLPCPFA from "../assets/NLPCPFA.png";
-import slide1 from "./src/assets/network cable1.jpg";
-import slide2 from "./src/assets/network cable2.jpg";
-import slide3 from "./src/assets/network cable3.jpg";
-import slide4 from "./src/assets/network cable4.jpg";
-import slide5 from "./src/assets/network cable5.jpg";
+import slide1 from "../assets/network cable1.jpg";
+import slide2 from "../assets/network cable2.jpg";
+import slide3 from "../assets/network cable3.jpg";
+import slide4 from "../assets/network cable4.jpg";
+import slide5 from "../assets/network cable5.jpg";
 import { Carousel } from "react-responsive-carousel";
 
 const Homepage = () => {
