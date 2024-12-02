@@ -40,7 +40,7 @@ function Contact() {
         <br />
         <p className="text-left text-base/9">
           <b className="text-orange-700">Phone:</b>
-          +234803300AFCOMM,+234803300AFCOMM
+          +2348098009406,+2348056072406
           <br />
           <b className="text-orange-700">Email:</b> inquiries@afcomm.ng
           <br />

@@ -11,8 +11,8 @@ const Footer = () => {
                     <div className='flex flex-col items-start space-y-2'> 
                        <p className='flex place-items-center gap-1'> <MdSupportAgent size={30}/> Contact Support </p> 
                        <p className='text-justify'>Our Help Lines: <br/>
-                       +2348044AFCOMM,<br/> 
-                       +2348044AFCOMM<br/>
+                       +2348098009406,<br/> 
+                       +2348056072406<br/>
                        Email: <br/>
                        support@afcomm.ng</p>
                     </div>
