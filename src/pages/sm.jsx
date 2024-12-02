@@ -1,10 +1,11 @@
 import React from 'react'
+import cable1 from "./src/assets/network cable1.jpg";
 
 function SupportMaintenances() {
   return (
     <div className='mb-10'>
         <div className="text-end relative z-10">
-          <img src="./src/assets/network cable1.jpg" alt="Slide 1" />
+          <img src={cable1} alt="Slide 1" />
           <p className="absolute bottom-20 left-4 right-4 text-white text-3xl font-bold bg-black bg-opacity-50 p-2 rounded">
             Automate, secure, and thrive with cutting-edge office tech.
           </p>

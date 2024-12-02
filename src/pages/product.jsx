@@ -15,6 +15,13 @@ import LENOVO from "../assets/LENOVO.png";
 import LOGITECH from "../assets/LOGITECH.png";
 import SEAGATE from "../assets/SEAGATE.png";
 import UBIQUITI from "../assets/UBIQUITI.png";
+import CCTV from "./src/assets/install1.jpg";
+import FIRE_ALARM from "./src/assets/FIRE ALARM SYSTEMS.png";
+import ACCESS_CONTROL from "./src/assets/ACCESS CONTROL SYSTEMS.png";
+import INTERCOM from "./src/assets/INTERCOMM SYSTEMS.png";
+import NDA from "./src/assets/NETWORK DEVICES AND ACCESSORIES.png";
+import ECS from "./src/assets/ELV CABLE SOLUTIONS.png";
+import CDA from "./src/assets/COMPUTER DEVICES AND ACCESSORIES.png";
 
 const products = [
   {
@@ -40,7 +47,7 @@ const products = [
       "- Infrared illuminators",
       "- Weatherproof enclosures",
     ],
-    image: "./src/assets/CCTV SYSTEMS.png", // Replace with actual image path
+    image: [CCTV], // Replace with actual image path
   },
   {
     id: 2,
@@ -60,7 +67,7 @@ const products = [
       '- Remote Monitoring Devices'
 
     ],
-    image: "./src/assets/FIRE ALARM SYSTEMS.png",
+    image: [FIRE_ALARM],
   },
   {
     id: 3,
@@ -84,7 +91,7 @@ const products = [
       "- Power supply components",
       "- Alarm systems",
     ],
-    image: "./src/assets/ACCESS CONTROL SYSTEMS.png",
+    image: [ACCESS_CONTROL],
   },
   {
     id: 4,
@@ -105,7 +112,7 @@ const products = [
       "- Power supply components",
       "- Alarm systems",
     ],
-    image: "./src/assets/INTERCOMM SYSTEMS.png",
+    image: [INTERCOM],
   },
   {
     id: 5,
@@ -127,7 +134,7 @@ const products = [
       
 
     ],
-    image: "./src/assets/NETWORK DEVICES AND ACCESSORIES.png",
+    image: [NDA],
   },
   {
     id: 6,
@@ -142,7 +149,7 @@ const products = [
       "- Security and Surveillance Cables",
       "- Data and Communication Cables",
     ],
-    image: "./src/assets/ELV CABLE SOLUTIONS.png",
+    image: [ECS],
   },
   {
     id: 7,
@@ -169,7 +176,7 @@ const products = [
       "- Computer Accessories",
       "- Computer Security Devices",
     ],
-    image: "./src/assets/COMPUTER DEVICES AND ACCESSORIES.png",
+    image: [CDA],
   },
 ];
 

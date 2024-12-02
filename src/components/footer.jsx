@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { MdLocationPin, MdSupportAgent } from 'react-icons/md';
 
 
