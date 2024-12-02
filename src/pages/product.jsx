@@ -9,6 +9,12 @@ import DELL from "../assets/DELL.png";
 import HP from "../assets/HP.png";
 import DLINK from "../assets/DLINK.png";
 import MICROSOFT from "../assets/MICROSOFT.png";
+import MAC from "../assets/MAC.png";
+import WD from "../assets/WD.png";
+import LENOVO from "../assets/LENOVO.png";
+import LOGITECH from "../assets/LOGITECH.png";
+import SEAGATE from "../assets/SEAGATE.png";
+import UBIQUITI from "../assets/UBIQUITI.png";
 
 const products = [
   {
@@ -34,7 +40,7 @@ const products = [
       "- Infrared illuminators",
       "- Weatherproof enclosures",
     ],
-    image: "./src/assets/network cable1.jpg", // Replace with actual image path
+    image: "./src/assets/CCTV SYSTEMS.png", // Replace with actual image path
   },
   {
     id: 2,
@@ -54,7 +60,7 @@ const products = [
       '- Remote Monitoring Devices'
 
     ],
-    image: "./src/assets/network cable1.jpg",
+    image: "./src/assets/FIRE ALARM SYSTEMS.png",
   },
   {
     id: 3,
@@ -78,7 +84,7 @@ const products = [
       "- Power supply components",
       "- Alarm systems",
     ],
-    image: "./src/assets/network cable1.jpg",
+    image: "./src/assets/ACCESS CONTROL SYSTEMS.png",
   },
   {
     id: 4,
@@ -94,10 +100,12 @@ const products = [
       "- Intercom cables",
       "- Mounting hardwares",
       "- Intercomm junction boxes",
+      "- Modular Sockets", 
+      "- Modular Faceplates",
       "- Power supply components",
       "- Alarm systems",
     ],
-    image: "./src/assets/network cable1.jpg",
+    image: "./src/assets/INTERCOMM SYSTEMS.png",
   },
   {
     id: 5,
@@ -116,9 +124,10 @@ const products = [
       "- Network Security Devices",
       "- Power over Ethernet (PoE) Injectors",
       "- Network Test Equipment",
+      
 
     ],
-    image: "./src/assets/network cable1.jpg",
+    image: "./src/assets/NETWORK DEVICES AND ACCESSORIES.png",
   },
   {
     id: 6,
@@ -133,7 +142,7 @@ const products = [
       "- Security and Surveillance Cables",
       "- Data and Communication Cables",
     ],
-    image: "./src/assets/network cable1.jpg",
+    image: "./src/assets/ELV CABLE SOLUTIONS.png",
   },
   {
     id: 7,
@@ -148,6 +157,8 @@ const products = [
       "- Computer Mice",
       "- External Storage Drives",
       "- Printers",
+      "- Laptop Stands", 
+      "- Track Pads",
       "- Webcams",
       "- Speakers",
       "- Headsets",
@@ -158,14 +169,14 @@ const products = [
       "- Computer Accessories",
       "- Computer Security Devices",
     ],
-    image: "./src/assets/network cable1.jpg",
+    image: "./src/assets/COMPUTER DEVICES AND ACCESSORIES.png",
   },
 ];
 
 const Products = () => {
   return (
     <>
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-1 gap-20 p-6 pb-6 mt-24 lg:relative z-10">
+      <div className="grid grid-cols-1 sm:grid-cols-1 gap-20 p-6 pb-6 mt-24 lg:relative z-10">
         {products.map((product) => (
           <div
             key={product.id}
@@ -180,7 +191,7 @@ const Products = () => {
               <h2 className="lg:text-2xl sm:text-xl font-bold mb-2 text-blue-950">
                 {product.name}
               </h2>
-              <p className="text-gray-600 mb-2">{product.description}</p>
+              <p className="text-gray-600 mb-2 text-justify">{product.description}</p>
               <div className="text-base/6">
                 {Array.isArray(product.price) ? (
                   <ul>
@@ -196,7 +207,7 @@ const Products = () => {
           </div>
         ))}
       </div>
-      <div className="pt-20 mb-96">
+      <div className="pt-20">
         <h1 className="font-bold text-3xl text-center text-blue-950">
           {" "}
           Brands & Partners
@@ -256,6 +267,36 @@ const Products = () => {
               <img src={MICROSOFT} width={100} height={100} />
             </div>
           </div>
+          <div className="flex justify-center items-center w-full">
+   <div className="p-5 w-52 h-52 pt-16 mb-5">         
+     <img src={LOGITECH} width={100} height={100}/>
+   </div>
+   </div>
+          <div className="flex justify-center items-center w-full">
+   <div className="p-5 w-52 h-52 pt-10 mb-5">         
+     <img src={SEAGATE} width={100} height={100}/>
+   </div>
+   </div>
+          <div className="flex justify-center items-center w-full">
+   <div className="p-5 w-52 h-52 pt-16 mb-5">         
+     <img src={UBIQUITI} width={100} height={100}/>
+   </div>
+   </div>
+          <div className="flex justify-center items-center w-full">
+   <div className="p-5 w-52 h-52 pt-10 mb-5">         
+     <img src={LENOVO} width={100} height={100}/>
+   </div>
+   </div>
+          <div className="flex justify-center items-center w-full">
+   <div className="w-44 h-44">         
+     <img src={MAC} width={100} height={100}/>
+   </div>
+   </div>
+          <div className="flex justify-center items-center w-full">
+   <div className="w-60 h-60 pt-10 mb-5">         
+     <img src={WD} width={100} height={100}/>
+   </div>
+   </div>
           {/*<div className="flex justify-center items-center w-full">
    <div className="p-5 w-52 h-52 pt-10 mb-5">         
      <img src={NNPC} width={100} height={100}/>

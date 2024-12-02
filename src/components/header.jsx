@@ -23,7 +23,7 @@ const Header = () => {
           <header className="bg-gradient-to-r from-blue-950 to-orange-700 text-white font-bold">
             <nav className="flex items-center justify-between p-4">
               <div className="md:flex-none flex justify-center md:justify-start">
-                <Link to="/" className="flex flex-row place-items-center gap-3" onClick={toggleMenu}>
+                <Link to="/" className="flex flex-row place-items-center gap-3">
                   <img
                     src={AfcommLogo}
                     className="flex justify-start"

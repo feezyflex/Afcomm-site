@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { MdLocationPin, MdSupportAgent } from 'react-icons/md';
 
 
 const Footer = () => {
     return (
-        <div className='fixed bottom-0 inset-x-0'>
-        <footer className="bg-gradient-to-r from-orange-700 to-blue-950 text-white font-bold py-4 text-base/5">
+        <div className='bottom-0 inset-x-0'>
+        <footer className="bg-gradient-to-r from-orange-700 to-blue-950 text-white font-bold py-4 text-xs/5">
             <div className="container mx-auto text-center">
                 <div className='flex justify-evenly py-10'>
                     <div className='flex flex-col items-start space-y-2'> 
@@ -22,17 +23,17 @@ const Footer = () => {
                        Lagos, Nigeria</p>
                     </div>
                 </div>
-                <div className="flex flex-col justify-center items-center text-xs">
+                {/* <div className="flex flex-col justify-center items-center">
                     <p>Quick Links</p>
                     <div className="flex justify-center space-x-3">
-                    <a href="#services" className="hover:text-gray-300">Request a service</a>
-                    <a href="#products" className="hover:text-gray-300">Get qoute</a>
-                    <a href="#store" className="hover:text-gray-300">Book appointment</a>
-                    <a href="#contact" className="hover:text-gray-300">Contact us</a>
+                    <a href="#services" className="hover:text-gray-300">Services</a>
+                    <a href="#products" className="hover:text-gray-300">Products</a>
+                    <a href="#store" className="hover:text-gray-300"></a>
+                    <Link to="/contact" className="hover:text-gray-300">Contact us</Link>
                     </div>
-                </div>
+                </div> */}
                 <hr className="border-gray-300 my-4" /> 
-                <p className="mb-2 text-xs">&copy; {new Date().getFullYear()} Afcomm Technology. All Rights Reserved.</p>
+                <p className="mb-2">&copy; {new Date().getFullYear()} Afcomm Technology. All Rights Reserved.</p>
             </div>
         </footer>
     </div>

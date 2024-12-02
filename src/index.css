@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 body {
-  @apply  justify-center  mb-24 bg-zinc-300 overflow-y-auto;
+  @apply  justify-center bg-zinc-300 overflow-y-auto;
 }
 
 /* bg-gradient-to-b from-fuchsia-500 to-fuchsia-800 */

@@ -3,7 +3,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 function SupplyProcurements() {
   return (
-    <div className='mb-96'>
+    <div>
         <Carousel
         autoPlay
         interval={2500}
@@ -33,7 +33,7 @@ function SupplyProcurements() {
           </p> */}
         </div>
       </Carousel>
-      <div className='p-5'>
+      <div className='p-5 mb-10'>
       <div className='mt-10'>
         <h1 className='text-3xl font-bold text-center text-blue-950 my-5'>Elevate Your Workspace with Our Comprehensive Supply and Procurement Services</h1>
         </div>
@@ -44,38 +44,39 @@ Looking to equip your business with cutting-edge technology and security systems
           </div>
           <div>
   
- <b className='text-xl text-blue-950 justify-center flex mt-5 my-10'>Our Supply and Procurement Services:</b>
+ <b className='text-2xl text-blue-950 justify-center flex mt-5 my-10'>Our Supply and Procurement Services:</b>
 <ul className='list-disc list-inside'>
-<li> <b>CCTV Systems: </b> Choose from a variety of CCTV systems that suit your surveillance requirements, ensuring that your premises are protected and secure.</li>
-<li> <b>Intercom Systems: </b> Find the perfect intercom system to foster seamless communication within your office or building, enhancing connectivity and efficiency.</li>
-<li> <b> Fire Alarm Systems:</b> Select from reliable fire alarm systems to safeguard your property and personnel, providing early detection and quick emergency response.</li>
-<li> <b>Access Control Systems:</b> Source efficient access control systems that offer control and security over restricted areas, protecting your assets and ensuring peace of mind.</li>
-<li><b>Office Technology Solutions</b>: Explore our range of office technology solutions designed to boost productivity and streamline operations, tailored to meet the demands of modern workplaces.</li>
-<li><b>Computer Devices and Accessories</b>: Access a comprehensive selection of computer devices and accessories to equip your workspace with the latest technology and tools.</li>
+<li> Choose from a variety of <b className='text-orange-700'>CCTV SYSTEMS</b> that suit your surveillance requirements, ensuring that your premises are protected and secure.</li>
+<li> Find the perfect <b className='text-orange-700'>INTERCOMM SYSTEMS</b> to foster seamless communication within your office or building, enhancing connectivity and efficiency.</li>
+<li> Select from reliable <b className='text-orange-700'>FIRE ALARM SYSTEMS</b> to safeguard your property and personnel, providing early detection and quick emergency response.</li>
+<li> Source efficient <b className='text-orange-700'> ACCESS CONTROL SYSTEMS</b> that offer control and security over restricted areas, protecting your assets and ensuring peace of mind.</li>
+<li> Explore our range of <b className='text-orange-700'> OFFICE TECHNOLOGY SOLUTIONS</b> designed to boost productivity and streamline operations, tailored to meet the demands of modern workplaces.</li>
+<li> Access a comprehensive selection of <b className='text-orange-700'> COMPUTER DEVICES & ACCESSORIES</b> to equip your workspace with the latest technology and tools.</li>
 </ul>
 </div>
 
 <div>
 <p>
-<h1 className='text-xl font-bold text-center text-blue-950 my-10'>Why Partner with Us for Supply and Procurement?</h1>
+<h1 className='text-2xl font-bold text-center text-blue-950 my-10'>Why Partner with Us for Supply and Procurement?</h1>
 <ul className='list-disc list-inside mb-3'>
 <li>
-<b>
+<b className='text-orange-700'>
 Diverse Product Range:</b> We offer a diverse and quality-assured range of products to cater to your specific needs and preferences.
 </li>
 <li>
-<b>
+<b className='text-orange-700'>
 Competitive Pricing:</b> Benefit from competitive pricing on all our products, ensuring cost-effective solutions without compromising on quality.
 </li>
 <li>
-<b>
+<b className='text-orange-700'>
 Expert Guidance:</b> Our team of experts is on hand to provide guidance and assistance in selecting the right products to meet your requirements.
 </li>
 </ul>
 
-<b><i>"Drive Innovation and Efficiency in Your Workspace"</i></b> <br/>Take the first step towards upgrading your workspace with our supply and procurement services today. 
+<p className='my-5'><b><i className='text-blue-950 font-bold'>"Drive Innovation and Efficiency in Your Workspace"</i></b></p>
+Take the first step towards upgrading your workspace with our supply and procurement services today. 
 Contact us to make inquiries or schedule a consultation to explore our range of solutions. Transform your workspace, 
-enhance your security and productivity, and set your business on the path to success - reach out to us now to get started on your journey to a more efficient and technologically advanced workspace!
+enhance your security and productivity, and set your business on the path to success <br/> <p className='text-orange-700 font-bold font-serif mt-10 text-center text-2xl'>Reach out to us now to get started on your journey to a more efficient and technologically advanced workspace!</p>
 
         </p>
       </div>

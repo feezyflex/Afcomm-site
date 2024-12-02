@@ -3,7 +3,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 function Contact() {
   return (
-    <div className='mb-96'>
+    <div className='mb-10'>
        <Carousel
         autoPlay
         interval={2500}
@@ -32,20 +32,20 @@ function Contact() {
             </p><br/>
             <br/>
 <p className='text-left text-base/9'>
-<b>Phone:</b>
+<b className='text-orange-700'>Phone:</b>
 +234803300AFCOMM,+234803300AFCOMM<br/>
-<b>Email:</b> inquiries@afcomm.ng<br/>
-<b>Address:</b> 4, Arukweh street, Aradagun badagry, Lagos state, Nigeria.
+<b className='text-orange-700'>Email:</b> inquiries@afcomm.ng<br/>
+<b className='text-orange-700'>Address:</b> 4, Arukweh street, Aradagun badagry, Lagos state, Nigeria.
 </p>
 
 <h1 className='text-3xl font-bold text-blue-950 text-center my-10'>Business Hours</h1>
 <p className='text-base/9'>
-<b>Monday to Friday:</b> 8:00 AM - 5:00 PM<br/>
-<b>Saturday:</b> 8:00 AM - 12:00 PM<br/>
-<b>Sunday:</b> Closed
+<b className='text-orange-700'>Monday to Friday:</b> 8:00 AM - 5:00 PM<br/>
+<b className='text-orange-700'>Saturday:</b> 8:00 AM - 12:00 PM<br/>
+<b className='text-orange-700'>Sunday:</b> Closed
 </p> <br/>
 
-<p className='mt-5 mb-5'><b><i className='text-blue-950 font-bold'>How Can We Assist You?</i></b></p>
+<p className='my-5'><b><i className='text-blue-950 font-bold'>How Can We Assist You?</i></b></p>
 Whether you're looking for maintenance services, supply and procurement of technology solutions, or have general inquiries, questions & feedback, our team is ready to assist you.<br/>
 <br/>
 Reach out to us directly via phone or email during our business hours.

@@ -96,7 +96,7 @@ const Homepage = () => {
           so did our expertise. From our initial focus on intercom systems, we
           expanded our services to include:
           </p>
-          <ul className="text-justify">
+          <ul className="text-left font-bold text-orange-700">
             <li>- State-of-the-art CCTV installations</li>
             <li>- Advanced access control systems</li>
             <li>- Life-saving fire alarm setups</li>
@@ -113,17 +113,7 @@ const Homepage = () => {
           swiftly to our clients' needs.
           </p>
         </div>
-        <div className="flex flex-col space-y-5 pb-10 text-blue-950">
-          <b className="mt-2 text-2xl font-bold text-center">Adapting to Lagos' Unique Challenges</b> 
-          <br/>
-          <p className="text-base text-justify">
-          Operating in Lagos presented unique challenges – from the humid
-          climate affecting electronic equipment to the city's complex urban
-          layout. We took these challenges head-on, developing customized
-          solutions that could withstand the test of time and environment.
-          </p>
-        </div>
-        <div className="flex flex-col space-y-5 pb-10 text-blue-950">
+        {/* <div className="flex flex-col space-y-5 pb-10 text-blue-950">
          <b className="mt-2 text-2xl font-bold text-center">Empowering Local Businesses and Communities</b>
           <br />
           <p className="text-base text-justify">
@@ -133,28 +123,23 @@ const Homepage = () => {
           initiatives, and contributed to the city's growth by providing
           employment and training opportunities.
           </p>
-        </div>
+        </div> */}
           <div className="flex flex-col space-y-5 pb-10 text-blue-950">
           <b className="mt-2 text-2xl font-bold text-center">Looking to the Future</b>
           <br/>
           <p className="text-base text-justify">
-          Today, Afcomm Technology stands tall as a leader in Lagos' security
-          and communication sector. Our systems protect some of the city's most
-          critical infrastructure, busiest shopping malls, and thousands of
-          homes. As we look to the future, we remain committed to our founding
+          As we look to the future, we remain committed to our founding
           principles: innovation, reliability, and community. We're not just
-          installing systems; we're helping build a safer, more connected Lagos
-          for generations to come. From our humble beginnings to becoming Lagos'
-          trusted name in security technology, Afcomm's story is one of
-          perseverance, innovation, and unwavering commitment to our city's
-          safety. As we continue to grow, we invite you to be part of our
+          installing systems; we're helping build a safer, more connected environments
+          for generations to come. From our humble beginnings to becoming Nigeria'
+          trusted name in security technology. As we continue to grow, we invite you to be part of our
           journey in making Lagos a model for urban security and communication
           in Africa.
           </p>
         </div>
       </Carousel>
       </div>
-        <div className="pt-20 mb-96">
+        <div className="pt-20 mb-10">
         <h1 className="font-bold text-4xl text-center text-blue-950"> Our clients</h1>
           <Carousel
           autoPlay

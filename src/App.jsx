@@ -43,7 +43,7 @@ function App() {
 
   return (
     <BrowserRouter>
-    <div className='relative h-full'>
+    <div className='relative h-screen'>
           <Header/>
             <Routes>
             <Route index path="/" element={<Homepage />} />
