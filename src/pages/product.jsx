@@ -15,7 +15,7 @@ import LENOVO from "../assets/LENOVO.png";
 import LOGITECH from "../assets/LOGITECH.png";
 import SEAGATE from "../assets/SEAGATE.png";
 import UBIQUITI from "../assets/UBIQUITI.png";
-import CCTV from "../assets/install1.jpg";
+import CCTV from "../assets/CCTV SYSTEMS.png";
 import FIRE_ALARM from "../assets/FIRE ALARM SYSTEMS.png";
 import ACCESS_CONTROL from "../assets/ACCESS CONTROL SYSTEMS.png";
 import INTERCOM from "../assets/INTERCOMM SYSTEMS.png";
