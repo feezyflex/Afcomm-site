@@ -18,7 +18,7 @@ const Footer = () => {
                     </div>
                     <div className='flex flex-col items-start space-y-2'> 
                        <p className='flex place-items-center gap-1'> <MdLocationPin size={30}/> Our Office </p> 
-                       <p className='text-justify'>4 Arukweh Street, <br/> Aradagun badagry<br/>
+                       <p className='text-justify'>4 Arukweh Street, <br/> Aradagun Badagry<br/>
                        Lagos, Nigeria</p>
                     </div>
                 </div>

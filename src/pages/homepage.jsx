@@ -31,19 +31,19 @@ const Homepage = () => {
         <div className="text-end">
           <img src={slide1} alt="Slide 1" />
           <p className="absolute bottom-20 left-4 right-4 text-white text-3xl font-bold bg-black bg-opacity-50 p-2 rounded">
-            Automate, secure, and thrive with cutting-edge office tech.
+            Automate, Secure, & Thrive with Cutting-edge Office Tech.
           </p>
         </div>
         <div className="text-center">
           <img src={slide2} alt="Slide 2" />
           <p className="absolute bottom-20 left-4 right-4 text-white text-3xl font-bold bg-black bg-opacity-50 p-2 rounded">
-            Transform your office, Seamless security, effortless automation.
+            Transform Your Office, Seamless Security, & Effortless Automation.
           </p>
         </div>
         <div className="relative text-start">
           <img src={slide3} alt="Slide 3" />
           <p className="absolute bottom-20 left-4 right-4 text-white text-3xl font-bold bg-black bg-opacity-50 p-2 rounded">
-            Connecting safety and efficiency in every byte.
+            Connecting Safety & Efficiency In Every Byte.
           </p>
         </div>
         <div className="relative text-start">
@@ -69,14 +69,13 @@ const Homepage = () => {
         infiniteLoop
         >
         <div className="flex flex-col space-y-5 pb-10 text-blue-950">
-          <b className="mt-2 text-2xl font-bold text-center"> Securing Lagos for Over Two Decades</b>
+          <b className="mt-2 text-2xl font-bold text-center"> Proffering Solutions For Over Two Decades</b>
           <br />
           <p className="text-base text-justify">
             In the bustling heart of Lagos, Nigeria, a vision for a safer, more
             connected city took root over 20 years ago. This vision gave birth
             to Afcomm Technology, a company that has since become synonymous
-            with cutting-edge security and communication solutions in West
-            Africa's largest metropolis.
+            with cutting-edge security and communication solutions
           </p>
         </div>
         <div className="flex flex-col space-y-5 pb-10 text-blue-950">
@@ -108,7 +107,7 @@ const Homepage = () => {
           </ul>
         </div>
         <div className="flex flex-col space-y-5 pb-10 text-blue-950">
-          <b className="mt-2 text-2xl font-bold text-center"> Building Trust, One Installation at a Time</b>
+          <b className="mt-2 text-2xl font-bold text-center"> Building Trust, One Installation At A Time</b>
           <br />
           <p className="text-base text-justify">
           Our reputation grew not just through our sales, but through our
@@ -130,22 +129,22 @@ const Homepage = () => {
           </p>
         </div> */}
           <div className="flex flex-col space-y-5 pb-10 text-blue-950">
-          <b className="mt-2 text-2xl font-bold text-center">Looking to the Future</b>
+          <b className="mt-2 text-2xl font-bold text-center">Looking To The Future</b>
           <br/>
           <p className="text-base text-justify">
           As we look to the future, we remain committed to our founding
           principles: innovation, reliability, and community. We're not just
           installing systems; we're helping build a safer, more connected environments
           for generations to come. From our humble beginnings to becoming Nigeria'
-          trusted name in security technology. As we continue to grow, we invite you to be part of our
+          trusted name in office solutions and security technology. As we continue to grow, we invite you to be part of our
           journey in making Lagos a model for urban security and communication
-          in Africa.
+          in Nigeria.
           </p>
         </div>
       </Carousel>
       </div>
         <div className="pt-20 mb-10">
-        <h1 className="font-bold text-4xl text-center text-blue-950"> Our clients</h1>
+        <h1 className="font-bold text-4xl text-center text-blue-950"> Our Clients</h1>
           <Carousel
           autoPlay
           infiniteLoop

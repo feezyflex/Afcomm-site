@@ -7,7 +7,7 @@ function SupportMaintenances() {
         <div className="text-end relative z-10">
           <img src={cable1} alt="Slide 1" />
           <p className="absolute bottom-20 left-4 right-4 text-white text-3xl font-bold bg-black bg-opacity-50 p-2 rounded">
-            Automate, secure, and thrive with cutting-edge office tech.
+            Automate, Secure, & Thrive with Cutting-edge Office Tech.
           </p>
         </div>
         <div className='p-5'>
@@ -17,7 +17,7 @@ function SupportMaintenances() {
         </div>
         <div>
         <p className="text-justify my-5">
-        Is your business in need of reliable maintenance services for your CCTV systems, intercom systems, fire alarm systems, access control systems, and office technology solutions? Look no further! Our dedicated team is here to provide you with on-the-spot fault clearance, troubleshooting, repairs, and proactive maintenance to keep your systems running smoothly and efficiently.
+        is your business in need of reliable maintenance services for your CCTV systems, intercom systems, fire alarm systems, access control systems, and office technology solutions? Look no further! Our dedicated team is here to provide you with on-the-spot fault clearance, troubleshooting, repairs, and proactive maintenance to keep your systems running smoothly and efficiently.
         </p>
           </div>
           <div>

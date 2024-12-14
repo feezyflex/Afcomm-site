@@ -39,7 +39,7 @@ function SupplyProcurements() {
       <div className="p-5 mb-10">
         <div className="mt-10">
           <h1 className="text-3xl font-bold text-center text-blue-950 my-5">
-            Elevate Your Workspace with Our Comprehensive Supply and Procurement
+            Elevate Your Workspace with Our Comprehensive Supply & Procurement
             Services
           </h1>
         </div>
@@ -56,7 +56,7 @@ function SupplyProcurements() {
         </div>
         <div>
           <b className="text-2xl text-blue-950 justify-center flex mt-5 my-10">
-            Our Supply and Procurement Services:
+            Our Supply & Procurement Services:
           </b>
           <ul className="list-disc list-inside">
             <li>
@@ -112,7 +112,7 @@ function SupplyProcurements() {
         <div>
           <p>
             <h1 className="text-2xl font-bold text-center text-blue-950 my-10">
-              Why Partner with Us for Supply and Procurement?
+              Why Partner With Us for Supply & Procurement?
             </h1>
             <ul className="list-disc list-inside mb-3">
               <li>
@@ -134,7 +134,7 @@ function SupplyProcurements() {
             <p className="my-5">
               <b>
                 <i className="text-blue-950 font-bold">
-                  "Drive Innovation and Efficiency in Your Workspace"
+                  "Drive Innovation & Efficiency In Your Workspace"
                 </i>
               </b>
             </p>

@@ -71,7 +71,7 @@ const products = [
   },
   {
     id: 3,
-    name: "Access control Systems & Accessories",
+    name: "Access Control Systems & Accessories",
     description: "Access control systems and accessories are designed to regulate and manage the entry and exit of individuals into secured areas. These systems provide security, monitor entry points, and track the movements of authorized personnel within a building or facility. By combining these components, access control systems provide a secure and efficient means of managing access to restricted areas within a facility.",
     price: [
       "- Card readers",

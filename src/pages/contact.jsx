@@ -45,7 +45,7 @@ function Contact() {
           <b className="text-orange-700">Email:</b> inquiries@afcomm.ng
           <br />
           <b className="text-orange-700">Address:</b> 4, Arukweh street,
-          Aradagun badagry, Lagos state, Nigeria.
+          Aradagun Badagry, Lagos state, Nigeria.
         </p>
         <h1 className="text-3xl font-bold text-blue-950 text-center my-10">
           Business Hours

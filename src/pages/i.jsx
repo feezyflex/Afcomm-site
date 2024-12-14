@@ -31,7 +31,7 @@ function Installations() {
       </Carousel>
       <div className='p-5'>
       <div className='mt-10'>
-        <h1 className='text-3xl font-bold text-center text-blue-950 my-5'>Enhance Your Security and Efficiency with Our Comprehensive Solutions</h1>
+        <h1 className='text-3xl font-bold text-center text-blue-950 my-5'>Enhance Your Security & Efficiency With Our Comprehensive Solutions</h1>
         </div>
         <div>
         <p className="text-justify my-5">
